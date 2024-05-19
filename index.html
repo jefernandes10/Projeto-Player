@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio API</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card-player">
+            <div class="music-player">
+                    <div class="current-song">
+                        <img  id="cover" src="" alt="Capa do Álbum">
+                            <div id="song-info">
+                                <p id="title">Título da Música</p>
+                                <span id="author">Autor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="controles">
+                    <button id="previous"><i class="fas fa-backward fa-3x"></i></button>
+                    <button id="play-pause"><i class="fas fa-play fa- fa-3x"></i></button>
+                    <button id="next"><i class="fas fa-forward fa-3x"></i></button>
+                </div>
+                <audio id="audio"></audio>
+                <div id="progress-container">
+                    <div id="progress"></div>
+                </div>
+                    <div id="time-container">
+                        <span id="current-time">0:00</span>  <span id="duration">0:00</span>
+                        </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
