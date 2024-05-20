@@ -71,7 +71,7 @@ function playPause() {
         playPauseButton.innerHTML = '<i class="fas fa-pause fa-3x"></i>';
     } else {
         audio.pause();
-        playPauseButton.innerHTML = '<i class="fas fa-play"></i>';
+        playPauseButton.innerHTML = '<i class="fas fa-play fa-3x"></i>';
     }
 }
 
